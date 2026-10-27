@@ -1,0 +1,843 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pablo Vicente Juan — Ingeniero informático y DJ</title>
+<meta name="description" content="Portfolio de Pablo Vicente Juan: ingeniero informático de día, DJ de noche. Proyectos como BookVip, TuneVIP y RutaVital.">
+<meta property="og:title" content="Pablo Vicente Juan — Side A / Side B">
+<meta property="og:description" content="Ingeniero informático de día, DJ de noche. Proyectos, trayectoria y cabina.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pablovip.github.io/">
+<meta name="theme-color" content="#0C0C0D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Ccircle cx='22' cy='22' r='21' fill='%231D1D20'/%3E%3Cpath d='M 10 22 A 12 12 0 0 1 34 22 Z' fill='%235B8CFF'/%3E%3Cpath d='M 10 22 A 12 12 0 0 0 34 22 Z' fill='%23FF6A2A'/%3E%3Ccircle cx='22' cy='22' r='3' fill='%230C0C0D'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0C0C0D}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+a{color:#F2EFE8}a:hover{color:#8FB0FF}
+@keyframes vinilo{to{transform:rotate(360deg)}}
+.vinilo-gira{animation:vinilo 9s linear infinite;transform-origin:50% 50%}
+.nav-scroll{scrollbar-width:none}
+.nav-scroll::-webkit-scrollbar{display:none}
+@media (max-width: 560px){.logo-texto{display:none}}
+@media (prefers-reduced-motion: reduce){.vinilo-gira{animation:none}}
+</style>
+</head>
+<body>
+<div style="background: #0C0C0D; color: #F2EFE8; font-family: 'Archivo', system-ui, sans-serif; font-size: 17px; line-height: 1.55; min-height: 100vh; overflow-x: clip;">
+
+<header style="position: sticky; top: 0; z-index: 20; background: rgba(12, 12, 13, 0.92); backdrop-filter: blur(10px); border-bottom: 1px solid #1D1D20;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 10px 24px 6px; display: flex; gap: 16px; align-items: center; justify-content: space-between;">
+<a href="#inicio" style="flex: 0 0 auto; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F2EFE8; min-height: 44px;">
+<svg width="40" height="40" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="21" fill="#1D1D20" stroke="#3A3A40"></circle><circle cx="22" cy="22" r="15" fill="none" stroke="#2A2A2E"></circle><path d="M 13 22 A 9 9 0 0 1 31 22 Z" fill="#5B8CFF"></path><path d="M 13 22 A 9 9 0 0 0 31 22 Z" fill="#FF6A2A"></path><circle cx="22" cy="22" r="2" fill="#0C0C0D"></circle></svg>
+<span class="logo-texto" style="font-weight: 800; font-size: 17px; font-stretch: 115%; letter-spacing: 0.01em; white-space: nowrap;">PABLO VICENTE</span>
+</a>
+<nav aria-label="Secciones" class="nav-scroll" style="flex: 0 1 auto; min-width: 0; overflow-x: auto; display: flex; gap: 2px; align-items: center; white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-size: 13px;">
+<a href="#sobre" style="padding: 12px 10px; text-decoration: none;"><span style="color: #5B8CFF;">A1</span> Yo</a>
+<a href="#proyectos" style="padding: 12px 10px; text-decoration: none;"><span style="color: #5B8CFF;">A2</span> Proyectos</a>
+<a href="#trayectoria" style="padding: 12px 10px; text-decoration: none;"><span style="color: #5B8CFF;">A3</span> Trayectoria</a>
+<a href="#formacion" style="padding: 12px 10px; text-decoration: none;"><span style="color: #5B8CFF;">A4</span> Stack</a>
+<a href="#cabina" style="padding: 12px 10px; text-decoration: none;"><span style="color: #FF6A2A;">B1</span> Cabina</a>
+<a href="#contacto" style="margin-left: 6px; padding: 10px 16px; text-decoration: none; background: #F2EFE8; color: #0C0C0D; border-radius: 999px; font-weight: 700;">Contacto</a>
+</nav>
+</div>
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px 6px; box-sizing: border-box;">
+<div style="display: flex; align-items: flex-end; gap: 2px; height: 10px; overflow: hidden;" id="onda-menu" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+<span style="flex: 1 1 0; min-width: 1px; height: 3px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 11px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 12px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 11px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 11px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 9px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 4px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 6px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 8px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 5px; border-radius: 1px; background: #2A2A2E;"></span><span style="flex: 1 1 0; min-width: 1px; height: 7px; border-radius: 1px; background: #2A2A2E;"></span>
+</div>
+</div>
+</header>
+
+<section id="inicio" style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center;">
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+<span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px; border: 1px solid #2A2A2E; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #F2EFE8;"><span style="width: 8px; height: 8px; border-radius: 50%; background: #3DDC97;"></span>Construyendo BookVip</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">ORIHUELA / MURCIA · ES</span>
+</div>
+<h1 style="margin: 0; font-size: clamp(40px, 7vw, 96px); line-height: 0.9; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; letter-spacing: -0.02em; text-transform: uppercase;">Pablo<br>Vicente<br>Juan</h1>
+<p style="margin: 0; font-size: clamp(19px, 2vw, 25px); line-height: 1.4; max-width: 640px; color: #E4E0D6;">Ingeniero informático de día, <span style="color: #FF6A2A; font-weight: 700;">DJ de noche</span>. Construyo productos web completos, de la base de datos al cobro con Stripe, y desde 2023 pongo música en las cabinas de Murcia.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+<a href="#proyectos" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; background: #5B8CFF; color: #0C0C0D; text-decoration: none; font-weight: 700;">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+Side A · Proyectos</a>
+<a href="#cabina" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; border: 1.5px solid #FF6A2A; color: #F2EFE8; text-decoration: none; font-weight: 700;">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="2.5"></circle></svg>
+Side B · La cabina</a>
+
+<div style="display: flex; gap: 8px;">
+<a href="https://www.linkedin.com/in/pablo-vicente-juan/" aria-label="LinkedIn" style="width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid #3A3A40; display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700;">in</a>
+<a href="https://github.com/PabloVip" aria-label="GitHub" style="width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid #3A3A40; display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700;">gh</a>
+<a href="https://www.instagram.com/dj_pablovicente/" aria-label="Instagram de DJ" style="width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid #3A3A40; display: flex; align-items: center; justify-content: center; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700;">ig</a>
+</div>
+</div>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 16px; align-items: center;">
+<div style="position: relative; width: 100%; max-width: 440px; aspect-ratio: 1 / 1;">
+<div class="vinilo-gira" style="position: absolute; inset: 0;">
+<svg viewBox="0 0 400 400" width="100%" height="100%" role="img" aria-label="Vinilo con las caras Side A y Side B">
+<circle cx="200" cy="200" r="196" fill="#121214" stroke="#2A2A2E" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="182" fill="none" stroke="#1E1E22" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="170" fill="none" stroke="#1E1E22" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="158" fill="none" stroke="#232327" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="146" fill="none" stroke="#1E1E22" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="134" fill="none" stroke="#232327" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="122" fill="none" stroke="#1E1E22" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="110" fill="none" stroke="#232327" stroke-width="2"></circle>
+<circle cx="200" cy="200" r="98" fill="none" stroke="#1E1E22" stroke-width="2"></circle>
+<path d="M 62 150 A 150 150 0 0 1 142 62" stroke="#3A3A40" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"></path>
+<path d="M 338 250 A 150 150 0 0 1 258 338" stroke="#2E2E33" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"></path>
+<circle cx="200" cy="200" r="76" fill="#FF6A2A"></circle>
+<path d="M 124 200 A 76 76 0 0 1 276 200 Z" fill="#5B8CFF"></path>
+<text x="200" y="176" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="900" font-size="20" fill="#0C0C0D" letter-spacing="1">SIDE A</text>
+<text x="200" y="193" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#0C0C0D">CÓDIGO</text>
+<text x="200" y="224" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="900" font-size="20" fill="#0C0C0D" letter-spacing="1">SIDE B</text>
+<text x="200" y="240" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#0C0C0D">MÚSICA</text>
+<circle cx="200" cy="200" r="6" fill="#0C0C0D"></circle>
+</svg>
+</div>
+<svg viewBox="0 0 400 400" width="100%" height="100%" style="position: absolute; inset: 0;" aria-hidden="true">
+<circle cx="370" cy="42" r="20" fill="#1D1D20" stroke="#3A3A40" stroke-width="2"></circle>
+<circle cx="370" cy="42" r="7" fill="#A8A49B"></circle>
+<path d="M 370 42 L 352 210 L 300 272" stroke="#A8A49B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<rect x="282" y="262" width="34" height="22" rx="4" fill="#E4E0D6" transform="rotate(-40 299 273)"></rect>
+</svg>
+</div>
+<p style="margin: 0; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: center; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;"><span style="width: 8px; height: 8px; border-radius: 50%; background: #FF4D4D;"></span>AHORA SONANDO · Final nacional de Líderes Digitales, Madrid 29–30 oct</p>
+</div>
+</section>
+
+<section aria-label="Forma de onda" style="max-width: 1240px; margin: 0 auto; padding: 24px 24px 8px;">
+<div style="position: relative; display: flex; align-items: center; gap: 2px; height: 96px; padding: 0 2px; overflow: hidden;" aria-hidden="true">
+<span style="flex: 1 1 0; min-width: 1px; height: 10px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 48px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 46px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 69px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 62px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 65px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 54px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 41px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 23px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 42px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 26px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 43px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 19px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 33px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 20px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 32px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 23px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 33px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 43px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 46px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 61px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 50px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 62px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 32px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 39px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 23px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 55px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 57px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 72px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 70px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 64px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 57px; border-radius: 2px; background: #5B8CFF;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 31px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 27px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 53px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 36px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 55px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 35px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 41px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 27px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 27px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 27px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 26px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 38px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 32px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 52px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 51px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 25px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 32px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 57px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 63px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 70px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 72px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 56px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 54px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 22px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 41px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 64px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 52px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 63px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 48px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 44px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 33px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 24px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 34px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 23px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 33px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 16px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 40px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 23px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 40px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 22px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 35px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 40px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 53px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 64px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 61px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 67px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 44px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 47px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 12px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 50px; border-radius: 2px; background: #3A3A40;"></span><span style="flex: 1 1 0; min-width: 1px; height: 47px; border-radius: 2px; background: #3A3A40;"></span>
+<span style="position: absolute; left: 38%; top: -6px; bottom: -6px; width: 2px; background: #F2EFE8;"></span>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 12px; margin-top: 12px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">
+<span>00:00 · SIDE A</span>
+<span>2023 → 2026</span>
+<span>SIDE B · ∞</span>
+</div>
+</section>
+
+<section aria-label="En cifras" style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 24px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 12px;">
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">CH1 · RETO</span>
+<span style="font-size: 52px; line-height: 1; font-weight: 900; font-stretch: 125%; color: #5B8CFF;">1º</span>
+<span style="font-size: 15px; color: #CFCBC1;">de la UCAM en Líderes Digitales Universitarios (Cátedras Telefónica).</span>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">CH2 · PRODUCTO</span>
+<span style="font-size: 52px; line-height: 1; font-weight: 900; font-stretch: 125%; color: #5B8CFF;">2</span>
+<span style="font-size: 15px; color: #CFCBC1;">SaaS propios con dominio: bookvip.me y tunevip.net.</span>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">CH3 · CERTIFICADOS</span>
+<span style="font-size: 52px; line-height: 1; font-weight: 900; font-stretch: 125%; color: #5B8CFF;">10</span>
+<span style="font-size: 15px; color: #CFCBC1;">certificaciones de Cisco, Oracle y Microsoft.</span>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">CH4 · CABINA</span>
+<span style="font-size: 52px; line-height: 1; font-weight: 900; font-stretch: 125%; color: #FF6A2A;">172+</span>
+<span style="font-size: 15px; color: #CFCBC1;">bolos como DJ desde 2023.</span>
+</div>
+</div>
+</section>
+
+<section id="sobre" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px 40px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;">
+
+<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #5B8CFF;">A1 — SOBRE MÍ</p>
+<h2 style="margin: 0; font-size: clamp(28px, 4.4vw, 56px); line-height: 0.95; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">Construyo, lidero y pincho</h2>
+</div>
+<p style="margin: 0; color: #E4E0D6; font-size: 19px; max-width: 640px;">Estudio 4º de Ingeniería Informática en la UCAM y trabajo como desarrollador en Inventi. Casi todo lo que programo nace de un problema que tenía delante: en la cabina, en clase o en casa.</p>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #2A2A2E;">
+<div style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid #2A2A2E;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 36px;"><path d="m8 9-4 3 4 3"></path><path d="m16 9 4 3-4 3"></path><path d="m13.5 6-3 12"></path></svg>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0;">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; font-stretch: 115%;">Construyo</h3>
+<p style="margin: 0; color: #CFCBC1;">Productos completos: diseño, base de datos, pagos, seguridad y despliegue. BookVip ya cobra con Stripe en producción y tiene su primer negocio real dado de alta.</p>
+</div>
+</div>
+<div style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid #2A2A2E;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 36px;"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17.5" cy="9" r="2.5"></circle><path d="M16 14.2c2.9.3 5 2.6 5 5.8"></path></svg>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0;">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; font-stretch: 115%;">Lidero</h3>
+<p style="margin: 0; color: #CFCBC1;">Delegado de curso desde 2023 y de carrera desde 2024, líder del GDG On Campus UCAM, mentor en UCAMENTOR y representante de la UCAM en ferias como AULA (IFEMA).</p>
+</div>
+</div>
+<div style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid #2A2A2E;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FF6A2A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 36px;"><path d="M3 14v-2a9 9 0 0 1 18 0v2"></path><rect x="2.5" y="14" width="4.5" height="6.5" rx="1.5"></rect><rect x="17" y="14" width="4.5" height="6.5" rx="1.5"></rect></svg>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0;">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; font-stretch: 115%;">Pincho</h3>
+<p style="margin: 0; color: #CFCBC1;">DJ desde junio de 2023. La cabina me enseñó a leer a la gente en tiempo real, y eso me lo llevo a cada producto que diseño.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="proyectos" style="max-width: 1240px; margin: 0 auto; padding: 88px 24px 40px; display: flex; flex-direction: column; gap: 32px;">
+<div style="display: flex; flex-wrap: wrap; gap: 16px 48px; justify-content: space-between; align-items: flex-end;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #5B8CFF;">A2 — PROYECTOS</p>
+<h2 style="margin: 0; font-size: clamp(28px, 4.4vw, 56px); line-height: 0.95; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">La tracklist</h2>
+</div>
+<p style="margin: 0; max-width: 440px; color: #CFCBC1;">Productos en producción, retos, herramientas para mi día a día y algo de hardware. Cada uno con su stack.</p>
+</div>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 28px; padding: clamp(18px, 4vw, 32px); display: flex; flex-wrap: wrap; gap: clamp(24px, 4vw, 40px); align-items: center;">
+<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 18px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 01 · SAAS</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; background: #3DDC97; color: #0C0C0D; font-weight: 700;">EN PRODUCCIÓN</span>
+</div>
+<h3 style="margin: 0; font-size: clamp(40px, 5vw, 64px); line-height: 0.95; font-weight: 900; font-stretch: 125%;">BookVip</h3>
+<p style="margin: 0; font-size: 19px; color: #E4E0D6; max-width: 620px;">Reservas de citas para barberías, uñas, tatuaje y estética. Cada negocio gestiona su equipo, horarios y servicios; el cliente reserva en segundos desde el móvil. Lo diseñé, lo programé y lo comercializo yo.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px 24px;">
+<p style="margin: 0; display: flex; gap: 10px; color: #CFCBC1; font-size: 15px;"><span style="color: #5B8CFF; font-family: 'JetBrains Mono', monospace;">→</span>Suscripción mensual con Stripe en modo real, prueba de 30 días y portal de facturación</p>
+<p style="margin: 0; display: flex; gap: 10px; color: #CFCBC1; font-size: 15px;"><span style="color: #5B8CFF; font-family: 'JetBrains Mono', monospace;">→</span>Recordatorios y avisos por email con Resend y tareas programadas</p>
+<p style="margin: 0; display: flex; gap: 10px; color: #CFCBC1; font-size: 15px;"><span style="color: #5B8CFF; font-family: 'JetBrains Mono', monospace;">→</span>Buscador por cercanía con GPS, reseñas y estadísticas por profesional</p>
+<p style="margin: 0; display: flex; gap: 10px; color: #CFCBC1; font-size: 15px;"><span style="color: #5B8CFF; font-family: 'JetBrains Mono', monospace;">→</span>Seguridad: contraseñas filtradas por k-anonimato y permisos por columna en Postgres</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">Next.js 16</span>
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">Supabase</span>
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">Stripe</span>
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">Resend</span>
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">Vercel</span>
+<span style="font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid #3A3A40;">30 migraciones SQL</span>
+</div>
+<a href="https://www.bookvip.me" style="display: inline-flex; align-items: center; gap: 10px; align-self: flex-start; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #5B8CFF; color: #0C0C0D; text-decoration: none; font-weight: 700;">Visitar bookvip.me ↗</a>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; justify-content: center;">
+<div style="width: 100%; max-width: 272px; height: 520px; border-radius: 40px; background: #0C0C0D; border: 8px solid #2A2A2E; padding: 20px 16px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px;" aria-hidden="true">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<span style="font-weight: 900; font-stretch: 120%; font-size: 16px;">BookVip</span>
+<span style="width: 28px; height: 28px; border-radius: 50%; background: #2A2A2E;"></span>
+</div>
+<div style="background: #151517; border-radius: 14px; padding: 12px; display: flex; flex-direction: column; gap: 2px;">
+<span style="font-size: 14px; font-weight: 700;">Corte + barba</span>
+<span style="font-size: 12px; color: #A8A49B;">30 min · con tu barbero</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; font-family: 'JetBrains Mono', monospace; font-size: 10px; text-align: center;">
+<span style="padding: 6px 0; border-radius: 8px; background: #16382A; color: #3DDC97;">L<br>26</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #5B8CFF; color: #0C0C0D; font-weight: 700;">M<br>27</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #3A2F14; color: #F5B841;">X<br>28</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #16382A; color: #3DDC97;">J<br>29</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #3A2F14; color: #F5B841;">V<br>30</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #16382A; color: #3DDC97;">S<br>31</span>
+<span style="padding: 6px 0; border-radius: 8px; background: #1D1D20; color: #6E6B64;">D<br>1</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-align: center;">
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #2A2A2E; color: #6E6B64; text-decoration: line-through;">10:00</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">10:30</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">11:00</span>
+<span style="padding: 9px 0; border-radius: 10px; background: #5B8CFF; color: #0C0C0D; font-weight: 700;">11:30</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #2A2A2E; color: #6E6B64; text-decoration: line-through;">12:00</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">12:30</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">16:00</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">16:30</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #2A2A2E; color: #6E6B64; text-decoration: line-through;">17:00</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">17:30</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">18:00</span>
+<span style="padding: 9px 0; border-radius: 10px; border: 1px solid #3A3A40;">18:30</span>
+</div>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: #A8A49B;"><span>Martes 27 · 11:30</span><span>Pago en el local</span></div>
+<span style="display: flex; align-items: center; justify-content: center; height: 46px; border-radius: 14px; background: #5B8CFF; color: #0C0C0D; font-weight: 800;">Confirmar reserva</span>
+</div>
+</div>
+</div>
+</article>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px;">
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; display: flex; align-items: center; justify-content: center; gap: 14px; padding: 12px; box-sizing: border-box;" aria-hidden="true">
+<div style="background: #F2EFE8; padding: 9px; border-radius: 8px; flex: 0 0 auto;">
+<div style="display: grid; grid-template-columns: repeat(15, 8px); grid-auto-rows: 8px;">
+<span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #F2EFE8;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span><span style="width: 8px; height: 8px; background: #0C0C0D;"></span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px; flex: 1 1 0; min-width: 0; max-width: 150px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A49B;">PETICIONES</span>
+<div style="display: flex; align-items: center; gap: 8px; background: #151517; border-radius: 10px; padding: 8px;"><span style="flex: 0 0 26px; height: 26px; border-radius: 6px; background: #FF6A2A;"></span><span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px;"><span style="height: 6px; width: 80%; border-radius: 3px; background: #E4E0D6;"></span><span style="height: 5px; width: 50%; border-radius: 3px; background: #3A3A40;"></span></span><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A49B;">128</span></div>
+<div style="display: flex; align-items: center; gap: 8px; background: #151517; border-radius: 10px; padding: 8px;"><span style="flex: 0 0 26px; height: 26px; border-radius: 6px; background: #5B8CFF;"></span><span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px;"><span style="height: 6px; width: 65%; border-radius: 3px; background: #E4E0D6;"></span><span style="height: 5px; width: 40%; border-radius: 3px; background: #3A3A40;"></span></span><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A49B;">124</span></div>
+<div style="display: flex; align-items: center; gap: 8px; background: #151517; border-radius: 10px; padding: 8px;"><span style="flex: 0 0 26px; height: 26px; border-radius: 6px; background: #3DDC97;"></span><span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px;"><span style="height: 6px; width: 72%; border-radius: 3px; background: #E4E0D6;"></span><span style="height: 5px; width: 55%; border-radius: 3px; background: #3A3A40;"></span></span><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A49B;">122</span></div>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 02 · SAAS</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Listo para lanzar</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">TuneVIP</h3>
+<p style="margin: 0; color: #CFCBC1;">El público escanea un QR y pide canciones al DJ desde el móvil. Pagos, búsqueda de temas con BPM, cuentas, copias de seguridad diarias y monitorización de errores. Nació en la cabina.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Next.js 15</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Supabase</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Stripe</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Cloudflare</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Sentry</span>
+</div>
+<a href="https://tunevip.net" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-weight: 700;">tunevip.net ↗</a>
+</article>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; overflow: hidden;">
+<svg viewBox="0 0 320 210" width="100%" height="100%" role="img" aria-label="Mapa con una calle cortada y la ruta recalculada">
+<g stroke="#232327" stroke-width="12" stroke-linecap="round">
+<path d="M 30 50 H 290"></path><path d="M 30 105 H 290"></path><path d="M 30 160 H 290"></path>
+<path d="M 50 30 V 180"></path><path d="M 125 30 V 180"></path><path d="M 200 30 V 180"></path><path d="M 270 30 V 180"></path>
+</g>
+<path d="M 50 160 H 125 V 105 H 200 V 50 H 270" stroke="#6E6B64" stroke-width="3" fill="none" stroke-dasharray="6 6"></path>
+<path d="M 135 105 H 190" stroke="#E5484D" stroke-width="12" stroke-linecap="round" opacity="0.85"></path>
+<path d="M 155 97 L 171 113 M 171 97 L 155 113" stroke="#0C0C0D" stroke-width="3" stroke-linecap="round"></path>
+<path d="M 50 160 H 200 V 50 H 270" stroke="#FF6A2A" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="50" cy="160" r="11" fill="#5B8CFF"></circle>
+<path d="M 50 154 V 166 M 44 160 H 56" stroke="#0C0C0D" stroke-width="2.5"></path>
+<rect x="258" y="38" width="24" height="24" rx="5" fill="#F2EFE8"></rect>
+<text x="270" y="55" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="900" font-size="14" fill="#0C0C0D">H</text>
+<text x="163" y="88" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#FF8A8D">CALLE CORTADA</text>
+<text x="60" y="190" font-family="JetBrains Mono, monospace" font-size="9" fill="#A8A49B">RUTA RECALCULADA →</text>
+</svg>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 03 · SMART CITY</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; background: #FF6A2A; color: #0C0C0D; font-weight: 700;">Finalista nacional</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">RutaVital</h3>
+<p style="margin: 0; color: #CFCBC1;">Rutas óptimas para ambulancias y policía según el tráfico. Recalcula en cuanto se corta una calle, avisa al conductor sin que aparte la vista y conecta con un panel de coordinación para el 112.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Líderes Digitales</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Cátedras Telefónica</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Tráfico simulado</span>
+</div>
+<a href="https://github.com/PabloVip/RutaVital-Telefonica" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-weight: 700;">Ver código ↗</a>
+</article>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; padding: 14px 16px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px;" aria-hidden="true">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A49B;"><span>OCTUBRE 2026</span><span style="color: #FF6A2A;">● VIERNES DE BOLO</span></div>
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #6E6B64; text-align: center;">
+<span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px;">
+<span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box;"></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box;"></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box;"></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">1</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #F2EFE8; background: #2A1C14;">2<span style="width: 4px; height: 4px; border-radius: 50%; background: #FF6A2A;"></span></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">3</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">4</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">5</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">6</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">7</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">8</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #F2EFE8; background: #2A1C14;">9<span style="width: 4px; height: 4px; border-radius: 50%; background: #FF6A2A;"></span></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">10</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">11</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">12</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">13</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">14</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">15</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #F2EFE8; background: #2A1C14;">16<span style="width: 4px; height: 4px; border-radius: 50%; background: #FF6A2A;"></span></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">17</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">18</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">19</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">20</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">21</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">22</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #F2EFE8; background: #2A1C14;">23<span style="width: 4px; height: 4px; border-radius: 50%; background: #FF6A2A;"></span></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">24</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">25</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">26</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517; border: 1.5px solid #5B8CFF;">27</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">28</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">29</span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #F2EFE8; background: #2A1C14;">30<span style="width: 4px; height: 4px; border-radius: 50%; background: #FF6A2A;"></span></span><span style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; height: 26px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 10px; box-sizing: border-box; color: #CFCBC1; background: #151517;">31</span>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 04 · PWA</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">En uso diario</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">Panel DJ</h3>
+<p style="margin: 0; color: #CFCBC1;">Mi gestor privado de bolos: calendario, cobros pendientes, salas y contactos, estadísticas e histórico desde 2023. Calendario suscribible en el iPhone y exportación a CSV.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Next.js</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">TypeScript</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Supabase Auth</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">iCal</span>
+</div>
+</article>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; padding: 18px; box-sizing: border-box; display: flex; align-items: flex-end; justify-content: space-between; gap: 16px;" aria-hidden="true">
+<div style="flex: 0 0 auto; display: flex; align-items: flex-end; gap: 4px; border-bottom: 4px solid #3A3A40; padding: 0 6px;">
+<span style="width: 16px; height: 120px; border-radius: 3px 3px 0 0; background: #3B4A6B;"></span>
+<span style="width: 20px; height: 140px; border-radius: 3px 3px 0 0; background: #6B3B3B;"></span>
+<span style="width: 14px; height: 104px; border-radius: 3px 3px 0 0; background: #3B6B55;"></span>
+<span style="width: 18px; height: 132px; border-radius: 3px 3px 0 0; background: #6B5A3B;"></span>
+<span style="width: 22px; height: 116px; border-radius: 3px 3px 0 0; background: #4A3B6B;"></span>
+<span style="width: 15px; height: 96px; border-radius: 3px 3px 0 0; background: #8A6A3B; transform: rotate(-12deg); transform-origin: bottom left;"></span>
+</div>
+<div style="flex: 1; min-width: 0; max-width: 150px; background: #151517; border: 1px solid #2A2A2E; border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 7px; align-self: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A49B;">BACK-OFFICE</span>
+<span style="display: flex; gap: 6px; align-items: center;"><span style="flex: 0 0 18px; height: 18px; border-radius: 4px; background: #3B4A6B;"></span><span style="flex: 1; height: 6px; border-radius: 3px; background: #3A3A40;"></span><span style="flex: 0 0 18px; height: 10px; border-radius: 5px; background: #3DDC97;"></span></span>
+<span style="display: flex; gap: 6px; align-items: center;"><span style="flex: 0 0 18px; height: 18px; border-radius: 4px; background: #6B3B3B;"></span><span style="flex: 1; height: 6px; border-radius: 3px; background: #3A3A40;"></span><span style="flex: 0 0 18px; height: 10px; border-radius: 5px; background: #3DDC97;"></span></span>
+<span style="display: flex; gap: 6px; align-items: center;"><span style="flex: 0 0 18px; height: 18px; border-radius: 4px; background: #3B6B55;"></span><span style="flex: 1; height: 6px; border-radius: 3px; background: #3A3A40;"></span><span style="flex: 0 0 18px; height: 10px; border-radius: 5px; background: #3A3A40;"></span></span>
+<span style="display: flex; align-items: center; justify-content: center; height: 24px; border-radius: 7px; background: #5B8CFF; color: #0C0C0D; font-size: 11px; font-weight: 800;">+ Producto</span>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 05 · ECOMMERCE + IA</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">UCAM</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">Entrelibros</h3>
+<p style="margin: 0; color: #CFCBC1;">Tienda online de rincones de lectura en miniatura, hecha en pareja. Yo construí el back-office de gestión de productos; ahora le sumo automatizaciones con n8n y un agente de IA con Gemini.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Supabase</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">GitHub Pages</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">n8n</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Gemini</span>
+</div>
+</article>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; padding: 16px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;" aria-hidden="true">
+<div style="width: 100%; max-width: 270px; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 8px; box-sizing: border-box;">
+<div style="display: flex; justify-content: space-between; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A49B;"><span>ALGORITMIA · T4</span><span>3 / 10</span></div>
+<span style="font-size: 13px; font-weight: 700; line-height: 1.3;">¿Complejidad de QuickSort en el caso medio?</span>
+<span style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 7px 10px; border-radius: 8px; background: #16382A; color: #3DDC97; border: 1px solid #3DDC97;"><span>O(n log n)</span><span>✓</span></span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 7px 10px; border-radius: 8px; border: 1px solid #2A2A2E; color: #A8A49B;">O(n²)</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 7px 10px; border-radius: 8px; border: 1px solid #2A2A2E; color: #A8A49B;">O(n)</span>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 06 · EDTECH</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Abierto</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">Tests Universidad</h3>
+<p style="margin: 0; color: #CFCBC1;">Mi web de estudio: resúmenes del temario y tests de autoevaluación por asignatura y tema, generados a partir de mis apuntes.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">HTML · CSS · JS</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">GitHub Pages</span>
+</div>
+<a href="https://pablovip.github.io/tests-universidad/" style="margin-top: auto; display: inline-flex; align-items: center; min-height: 44px; font-weight: 700;">Abrir la web ↗</a>
+</article>
+
+<article style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+<div style="height: 210px; border-radius: 16px; background: #0C0C0D; border: 1px solid #2A2A2E; overflow: hidden;">
+<svg viewBox="0 0 320 210" width="100%" height="100%" role="img" aria-label="Vinilo, etiqueta RFID y salida a una playlist">
+<rect x="18" y="22" width="166" height="166" rx="14" fill="#151517" stroke="#2A2A2E"></rect>
+<circle cx="101" cy="105" r="68" fill="#121214" stroke="#2A2A2E"></circle>
+<circle cx="101" cy="105" r="56" fill="none" stroke="#232327" stroke-width="2"></circle>
+<circle cx="101" cy="105" r="44" fill="none" stroke="#232327" stroke-width="2"></circle>
+<circle cx="101" cy="105" r="22" fill="#FF6A2A"></circle>
+<circle cx="101" cy="105" r="3" fill="#0C0C0D"></circle>
+<rect x="196" y="74" width="40" height="52" rx="6" fill="#F2EFE8"></rect>
+<rect x="207" y="86" width="18" height="14" rx="2" fill="none" stroke="#0C0C0D" stroke-width="2"></rect>
+<text x="216" y="118" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="#0C0C0D">TAG</text>
+<path d="M 246 88 A 16 16 0 0 1 246 112" stroke="#5B8CFF" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+<path d="M 254 80 A 26 26 0 0 1 254 120" stroke="#5B8CFF" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"></path>
+<rect x="232" y="150" width="76" height="26" rx="13" fill="#3DDC97"></rect>
+<text x="270" y="167" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="#0C0C0D">PLAYLIST ▶</text>
+<path d="M 216 130 V 163 H 230" stroke="#6E6B64" stroke-width="2" fill="none" stroke-dasharray="4 4"></path>
+</svg>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRACK 07 · HARDWARE</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Funcionando</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; font-weight: 900; font-stretch: 120%;">Tocadiscos RFID</h3>
+<p style="margin: 0; color: #CFCBC1;">Un tocadiscos con Raspberry Pi: apoyas un disco con etiqueta RFID y suena su playlist de Spotify en aleatorio. Le añadí un panel web para asignar etiquetas y elegir el altavoz Bluetooth.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Raspberry Pi</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">RC522</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Spotify</span>
+<span style="font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid #3A3A40;">Linux</span>
+</div>
+</article>
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: baseline;">
+<h3 style="margin: 0; font-size: 28px; font-weight: 900; font-stretch: 120%; text-transform: uppercase;">Caras B</h3>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">PROYECTOS PEQUEÑOS, DE CLASE Y DE CASA</span>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #2A2A2E;">
+<div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #2A2A2E; align-items: baseline;">
+<span style="flex: 0 0 56px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B8CFF;">B-01</span>
+<span style="flex: 1 1 220px; font-weight: 800; font-size: 19px;">Recibos de alquiler</span>
+<span style="flex: 999 1 360px; min-width: 0; color: #CFCBC1; font-size: 16px;">App para el negocio familiar: lecturas de luz y agua y recibos por vivienda desde el móvil, en lugar de un Excel.</span>
+<span style="flex: 0 0 auto; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">Vercel · Neon</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #2A2A2E; align-items: baseline;">
+<span style="flex: 0 0 56px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B8CFF;">B-02</span>
+<span style="flex: 1 1 220px; font-weight: 800; font-size: 19px;">Minecraft hardcore</span>
+<span style="flex: 999 1 360px; min-width: 0; color: #CFCBC1; font-size: 16px;">Servidor de Minecraft donde, si alguien muere, el mundo se borra y se regenera solo, con contador de muertes.</span>
+<span style="flex: 0 0 auto; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">Datapack · Scripts</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #2A2A2E; align-items: baseline;">
+<span style="flex: 0 0 56px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B8CFF;">B-03</span>
+<span style="flex: 1 1 220px; font-weight: 800; font-size: 19px;">Tienda de vinilos</span>
+<span style="flex: 999 1 360px; min-width: 0; color: #CFCBC1; font-size: 16px;">Proyecto final de Programación Web: frontend propio con backend en PHP y MySQL.</span>
+<span style="flex: 0 0 auto; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">PHP · MySQL</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #2A2A2E; align-items: baseline;">
+<span style="flex: 0 0 56px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B8CFF;">B-04</span>
+<span style="flex: 1 1 220px; font-weight: 800; font-size: 19px;">Mini PC X99</span>
+<span style="flex: 999 1 360px; min-width: 0; color: #CFCBC1; font-size: 16px;">Reaprovechando un i7-5960X y una GTX 970 para montar un equipo compacto que haga de NAS y de PC de juego.</span>
+<span style="flex: 0 0 auto; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">Hardware · En curso</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="trayectoria" style="background: #F2EFE8; color: #0C0C0D; margin-top: 64px;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; flex-wrap: wrap; gap: 16px 48px; justify-content: space-between; align-items: flex-end;">
+<div style="min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; color: #0C0C0D;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #5B8CFF;"></span>A3 — TRAYECTORIA</p>
+<h2 style="margin: 0; font-size: clamp(28px, 4.4vw, 56px); line-height: 0.95; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">El set completo</h2>
+</div>
+<p style="margin: 0; max-width: 440px; color: #4A4740;">Trabajo, comunidad y representación. De lo más reciente a lo más antiguo.</p>
+</div>
+<div style="width: 100%; max-width: 920px; min-width: 0; display: flex; flex-direction: column;">
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #FF6A2A; margin-top: 6px; box-shadow: 0 0 0 4px #F2EFE8, 0 0 0 5px #0C0C0D;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; color: #0C0C0D;">OCT 2026</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Finalista nacional · Líderes Digitales Universitarios</h3>
+<p style="margin: 0; color: #4A4740;">Red de Cátedras Telefónica y Ayuntamiento de Murcia. 1º de la UCAM en la fase local con RutaVital, defendiendo la idea en debate en el Ayuntamiento.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">SEP 2026 — HOY</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Desarrollador · Inventi Services S.L.</h3>
+<p style="margin: 0; color: #4A4740;">Módulos a medida en PHP para una intranet corporativa en Drupal 7: nuevos tipos de pregunta, formularios públicos con URL propia y guardado de respuestas en base de datos.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">2025 — HOY</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Líder · GDG On Campus UCAM</h3>
+<p style="margin: 0; color: #4A4740;">Organizo la comunidad de desarrolladores de Google en la UCAM: charlas técnicas, talleres prácticos y networking, en presencial y online. Miembro desde 2024.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">2025 — 2026</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Mentor · UCAMENTOR</h3>
+<p style="margin: 0; color: #4A4740;">Programa de mentoría de la UCAM.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">SEP 2025 — JUN 2026</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Profesor de informática y robótica</h3>
+<p style="margin: 0; color: #4A4740;">Clases de informática y robótica.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">2024 — 2026</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Representante de la UCAM en ferias</h3>
+<p style="margin: 0; color: #4A4740;">Semana de la Ciencia de Murcia (2024/25 y 2025/26), AULA en IFEMA Madrid 2026 y Escuela Politécnica Superior 2026.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #5B8CFF; margin-top: 6px;"></span><span style="flex: 1; width: 2px; background: #D6D1C4;"></span></div>
+<div style="flex: 1; min-width: 0; padding-bottom: 32px; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #4A4740;">2023 — HOY</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Delegado de curso y de carrera</h3>
+<p style="margin: 0; color: #4A4740;">Delegado de curso desde 2023 y de carrera desde 2024, dentro de la estructura de representación estudiantil de la UCAM.</p>
+</div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; flex: 0 0 18px;"><span style="width: 16px; height: 16px; border-radius: 50%; background: #FF6A2A; margin-top: 6px; box-shadow: 0 0 0 4px #F2EFE8, 0 0 0 5px #0C0C0D;"></span></div>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; color: #0C0C0D;">JUN 2023 — HOY</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">DJ</h3>
+<p style="margin: 0; color: #4A4740;">Lo cuento entero en la <a href="#cabina" style="color: #0C0C0D; font-weight: 700;">Side B</a>.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="formacion" style="max-width: 1240px; margin: 0 auto; padding: 96px 24px 96px; display: flex; flex-direction: column; gap: 32px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #5B8CFF;">A4 — FORMACIÓN Y STACK</p>
+<h2 style="margin: 0; font-size: clamp(28px, 4.4vw, 56px); line-height: 0.95; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">El equipo en cabina</h2>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px;">
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: clamp(20px, 4vw, 28px); display: flex; flex-direction: column; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">2023 — HOY · UCAM</span>
+<h3 style="margin: 0; font-size: clamp(22px, 6vw, 28px); font-weight: 900; font-stretch: 115%; line-height: 1.1; overflow-wrap: break-word; hyphens: auto;">Grado en Ingeniería Informática</h3>
+<p style="margin: 0; color: #CFCBC1;">Universidad Católica San Antonio de Murcia. Programación, sistemas distribuidos, bases de datos, redes, seguridad, IA y gestión de proyectos.</p>
+<div style="height: 1px; background: #2A2A2E;"></div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<div style="display: flex; justify-content: space-between; gap: 12px;"><span style="font-weight: 700;">Bachillerato</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">2021 — 2023</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px;"><span style="font-weight: 700;">Inglés · B1</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">2021</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px;"><span style="font-weight: 700;">Español</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">NATIVO</span></div>
+</div>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 24px; padding: clamp(20px, 4vw, 28px); display: flex; flex-direction: column; gap: 16px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">TRABAJO FIN DE GRADO · EN CURSO</span>
+<h3 style="margin: 0; font-size: clamp(22px, 6vw, 28px); font-weight: 900; font-stretch: 115%; line-height: 1.1; overflow-wrap: break-word; hyphens: auto;">Metaheurísticas para series temporales</h3>
+<div style="background: #0C0C0D; border: 1px solid #2A2A2E; border-radius: 14px; height: 170px; overflow: hidden;">
+<svg viewBox="0 0 320 170" width="100%" height="100%" role="img" aria-label="Frente de Pareto entre error del modelo y consumo de energía">
+<path d="M 40 20 V 140 H 300" stroke="#3A3A40" stroke-width="1.5" fill="none"></path>
+<text x="14" y="84" font-family="JetBrains Mono, monospace" font-size="9" fill="#A8A49B" transform="rotate(-90 14 84)" text-anchor="middle">ERROR</text>
+<text x="170" y="160" font-family="JetBrains Mono, monospace" font-size="9" fill="#A8A49B" text-anchor="middle">ENERGÍA / TIEMPO</text>
+<g fill="#3A3A40">
+<circle cx="120" cy="70" r="4"></circle><circle cx="180" cy="60" r="4"></circle><circle cx="150" cy="96" r="4"></circle><circle cx="230" cy="80" r="4"></circle><circle cx="260" cy="50" r="4"></circle><circle cx="200" cy="106" r="4"></circle><circle cx="110" cy="112" r="4"></circle><circle cx="240" cy="110" r="4"></circle><circle cx="170" cy="120" r="4"></circle>
+</g>
+<path d="M 62 34 L 84 66 L 104 90 L 140 112 L 196 124 L 270 130" stroke="#5B8CFF" stroke-width="2" fill="none" stroke-linejoin="round"></path>
+<g fill="#5B8CFF">
+<circle cx="62" cy="34" r="5"></circle><circle cx="84" cy="66" r="5"></circle><circle cx="104" cy="90" r="5"></circle><circle cx="140" cy="112" r="5"></circle><circle cx="196" cy="124" r="5"></circle><circle cx="270" cy="130" r="5"></circle>
+</g>
+</svg>
+</div>
+<p style="margin: 0; color: #CFCBC1;">Un esquema metaheurístico que genera y elige modelos de predicción equilibrando dos objetivos: precisión frente a energía y tiempo. Aplicado a control climático y fertirrigación en invernaderos, dentro de un proyecto de investigación.</p>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 16px;">
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B8CFF;">LENGUAJES</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Java</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">C</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">TypeScript</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">JavaScript</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">PHP</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">SQL · PL/SQL</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">HTML · CSS</span>
+</div>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B8CFF;">FRAMEWORKS Y DATOS</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Next.js</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">React</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Jakarta EE</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">APIs REST</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Drupal 7</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">PostgreSQL</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Supabase</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">MySQL</span>
+</div>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B8CFF;">INFRA Y SERVICIOS</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Vercel</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Cloudflare</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Stripe</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Resend</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">GitHub Actions</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Sentry</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">n8n</span>
+</div>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B8CFF;">SISTEMAS E IA</span>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Linux</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Redes (CCNA)</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Raspberry Pi</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">CUDA · OpenMP</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Machine learning</span><span style="font-size: 14px; padding: 6px 12px; border-radius: 999px; background: #1D1D20;">Agentes con Gemini</span>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">CERTIFICACIONES · 10</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 10px;">
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #12324A; color: #8FD0FF; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">CSCO</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">CCNA: Enterprise Networking, Security, and Automation</span><span style="font-size: 13px; color: #A8A49B;">Cisco · feb 2026</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #12324A; color: #8FD0FF; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">CSCO</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">CCNA: Switching, Routing, and Wireless Essentials</span><span style="font-size: 13px; color: #A8A49B;">Cisco · feb 2026</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #12324A; color: #8FD0FF; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">CSCO</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">CCNA: Introduction to Networks</span><span style="font-size: 13px; color: #A8A49B;">Cisco · feb 2026</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #12324A; color: #8FD0FF; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">CSCO</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">NDG Linux Essentials</span><span style="font-size: 13px; color: #A8A49B;">Cisco Networking Academy · nov 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #4A1C17; color: #FF9C8A; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">ORCL</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Data Modeling and Relational Database Design</span><span style="font-size: 13px; color: #A8A49B;">Oracle · nov 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #4A1C17; color: #FF9C8A; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">ORCL</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Conceptos fundamentales de PL/SQL</span><span style="font-size: 13px; color: #A8A49B;">Oracle · nov 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #4A1C17; color: #FF9C8A; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">ORCL</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Conceptos fundamentales de SQL I</span><span style="font-size: 13px; color: #A8A49B;">Oracle · nov 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #4A1C17; color: #FF9C8A; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">ORCL</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Desarrollo de Unidades de Programa en PL/SQL</span><span style="font-size: 13px; color: #A8A49B;">Oracle · nov 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #4A1C17; color: #FF9C8A; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">ORCL</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Oracle Certified Associate, Java SE 7 Programmer</span><span style="font-size: 13px; color: #A8A49B;">Oracle · feb 2025</span></span></div>
+<div style="display: flex; gap: 14px; align-items: center; background: #151517; border: 1px solid #2A2A2E; border-radius: 14px; padding: 14px 16px;"><span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #173A22; color: #8FE3A8; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;">MSFT</span><span style="display: flex; flex-direction: column; min-width: 0;"><span style="font-weight: 700; font-size: 15px; line-height: 1.3;">Software Development Fundamentals</span><span style="font-size: 13px; color: #A8A49B;">Microsoft · nov 2025</span></span></div>
+</div>
+</div>
+</section>
+
+<section id="cabina" style="background: #FF6A2A; color: #0C0C0D;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 40px;">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; justify-content: space-between;">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700;">B1 — LA CABINA</p>
+<h2 style="margin: 0; font-size: clamp(44px, 7vw, 108px); line-height: 0.88; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">Side B</h2>
+</div>
+<p style="margin: 0; flex: 1 1 380px; min-width: 0; font-size: 19px; line-height: 1.5;">Pincho desde junio de 2023. Los viernes de temporada estoy en Parabarap, en Murcia. Preparo los sets en rekordbox sobre equipo Pioneer, y cuando algo me falta como DJ, lo programo.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch;">
+
+<div style="flex: 1 1 320px; min-width: 0; background: #0C0C0D; color: #F2EFE8; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 18px;">
+<div style="display: flex; align-items: center; gap: 14px;">
+<span style="flex: 0 0 56px; height: 56px; border-radius: 50%; background: #FF6A2A; display: flex; align-items: center; justify-content: center;">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0C0C0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.8" fill="#0C0C0D"></circle></svg>
+</span>
+<div style="display: flex; flex-direction: column; min-width: 0;">
+<span style="font-weight: 900; font-size: 20px; font-stretch: 115%; overflow-wrap: anywhere;">@dj_pablovicente</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">INSTAGRAM</span>
+</div>
+</div>
+<p style="margin: 0; color: #CFCBC1;">Vídeos de mis sesiones, próximas fechas y lo que pasa en cabina. Ahí es donde se escucha la Side B.</p>
+<a href="https://www.instagram.com/dj_pablovicente/" style="margin-top: auto; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; background: #FF6A2A; color: #0C0C0D; text-decoration: none; font-weight: 800;">Seguir en Instagram ↗</a>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch;">
+<div style="flex: 1 1 320px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+<div style="border: 2px solid #0C0C0D; border-radius: 20px; padding: 18px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<span style="font-size: clamp(28px, 7vw, 46px); line-height: 1; font-weight: 900; font-stretch: 125%;">2023</span>
+<span style="font-size: 15px; font-weight: 500;">pinchando desde junio</span>
+</div>
+<div style="border: 2px solid #0C0C0D; border-radius: 20px; padding: 18px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<span style="font-size: clamp(28px, 7vw, 46px); line-height: 1; font-weight: 900; font-stretch: 125%;">VIE</span>
+<span style="font-size: 15px; font-weight: 500;">en Parabarap, de septiembre a junio</span>
+</div>
+<div style="border: 2px solid #0C0C0D; border-radius: 20px; padding: 18px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<span style="font-size: clamp(28px, 7vw, 46px); line-height: 1; font-weight: 900; font-stretch: 125%;">2</span>
+<span style="font-size: 15px; font-weight: 500;">apps nacidas en cabina: TuneVIP y Panel DJ</span>
+</div>
+<div style="border: 2px solid #0C0C0D; border-radius: 20px; padding: 18px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<span style="font-size: clamp(20px, 5vw, 30px); line-height: 1.1; font-weight: 900; font-stretch: 125%; overflow-wrap: anywhere;">PIONEER</span>
+<span style="font-size: 15px; font-weight: 500;">y rekordbox para preparar cada set</span>
+</div>
+</div>
+
+<div style="flex: 1 1 420px; min-width: 0; background: #0C0C0D; color: #F2EFE8; border-radius: 28px; padding: clamp(20px, 4vw, 28px); display: flex; flex-direction: column; gap: 22px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">
+<span>MEZCLADOR · PRUÉBALO</span>
+<span>CÓDIGO <span id="pct-codigo">50</span> · MÚSICA <span id="pct-musica">50</span></span>
+</div>
+<div style="display: flex; justify-content: center; gap: 40px; align-items: flex-end;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+<div style="display: flex; flex-direction: column; gap: 4px;" aria-hidden="true">
+<span data-canal="a" data-seg="9" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="8" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="7" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="6" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="5" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="4" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="3" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="2" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="1" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="a" data-seg="0" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B8CFF;">CH A · CÓDIGO</span>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+<div style="display: flex; flex-direction: column; gap: 4px;" aria-hidden="true">
+<span data-canal="b" data-seg="9" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="8" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="7" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="6" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="5" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="4" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="3" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="2" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="1" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span><span data-canal="b" data-seg="0" style="width: 56px; height: 10px; border-radius: 3px; background: #232327;"></span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF6A2A;">CH B · MÚSICA</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<label for="crossfader" style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;">CROSSFADER</label>
+<input id="crossfader" type="range" min="0" max="100" step="1" value="50" style="width: 100%; height: 44px; accent-color: #F2EFE8; cursor: pointer;">
+<div style="display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A49B;"><span>A</span><span>B</span></div>
+</div>
+<p style="margin: 0; font-size: 18px; font-weight: 700; min-height: 54px;"><span id="modo-mezcla">En equilibrio: construyo de día y pincho de noche.</span></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="fuera" style="max-width: 1240px; margin: 0 auto; padding: 96px 24px 64px; display: flex; flex-direction: column; gap: 32px;">
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #FF6A2A;">B2 — FUERA DEL CÓDIGO</p>
+<h2 style="margin: 0; font-size: clamp(28px, 4.4vw, 56px); line-height: 0.95; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase;">Cuando no hay pantalla</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px;">
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FF6A2A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="4.5" r="2"></circle><path d="m6 21 3.5-6 3 2.5 1.5 3.5"></path><path d="m7.5 11 3-3.5 3.5 2 2 3h3"></path><path d="M10.5 7.5 9 14"></path></svg>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Running</h3>
+<p style="margin: 0; color: #CFCBC1; font-size: 16px;">Preparando una media maratón a base de rodajes en zona 2.</p>
+</div>
+<div style="background: #151517; border: 1px solid #2A2A2E; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FF6A2A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="10" rx="2"></rect><circle cx="8" cy="12" r="2"></circle><path d="M13 10.5h5M13 13.5h3"></path></svg>
+<h3 style="margin: 0; font-size: 22px; font-weight: 800;">Audio y cacharreo</h3>
+<p style="margin: 0; color: #CFCBC1; font-size: 16px;">Escucho con un DAC SMSL C200 Pro y unos monitores JBL 305P MkII, y monto mis propios equipos: torre, NAS, Raspberry Pi y Linux.</p>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B; margin-right: 6px;">MI EQUIPO</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">MacBook Pro M4 Pro</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">Mi torre de ordenador</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">ThinkPad X1 · CachyOS + Windows</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">NAS 118+</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">Raspberry Pi</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">Pioneer + rekordbox</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">SMSL C200 Pro</span>
+<span style="font-size: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid #3A3A40;">JBL 305P MkII</span>
+</div>
+</section>
+
+<footer id="contacto" style="border-top: 1px solid #2A2A2E;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 96px 24px 40px; display: flex; flex-direction: column; gap: 56px;">
+<div style="display: flex; flex-direction: column; gap: 24px;">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #FF6A2A;">B3 — CONTACTO</p>
+<h2 style="margin: 0; font-size: clamp(28px, 7vw, 96px); line-height: 0.92; overflow-wrap: break-word; font-weight: 900; font-stretch: 125%; text-transform: uppercase; max-width: 1100px;">¿Pinchamos algo juntos?</h2>
+<p style="margin: 0; font-size: 20px; color: #CFCBC1; max-width: 600px;">Un producto, unas prácticas o una sesión. Si hay que construir algo de verdad, de la idea al despliegue, escríbeme.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+<a href="mailto:pablovicente29@hotmail.com" style="display: inline-flex; align-items: center; gap: 10px; max-width: 100%; box-sizing: border-box; min-height: 56px; padding: 8px 22px; border-radius: 999px; background: #FF6A2A; color: #0C0C0D; text-decoration: none; font-weight: 800; font-size: clamp(15px, 4vw, 18px); overflow-wrap: anywhere;">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 20px;"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+pablovicente29@hotmail.com</a>
+
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<a href="https://www.linkedin.com/in/pablo-vicente-juan/" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 999px; border: 1.5px solid #3A3A40; text-decoration: none; font-weight: 700;">LinkedIn ↗</a>
+<a href="https://github.com/PabloVip" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 999px; border: 1.5px solid #3A3A40; text-decoration: none; font-weight: 700;">GitHub ↗</a>
+<a href="https://www.instagram.com/dj_pablovicente/" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 999px; border: 1.5px solid #3A3A40; text-decoration: none; font-weight: 700;">Instagram DJ ↗</a>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; padding-top: 24px; border-top: 1px solid #2A2A2E; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #A8A49B;">
+<span>Pablo Vicente Juan · Orihuela / Murcia · 2026</span>
+<span><span style="color: #5B8CFF;">SIDE A</span> + <span style="color: #FF6A2A;">SIDE B</span> = una sola persona</span>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+(function () {
+  var A = '#5B8CFF';
+  var B = '#FF6A2A';
+
+  // Barra de progreso del menú con forma de onda
+  var barra = document.getElementById('onda-menu');
+  var barras = barra.querySelectorAll('span');
+  function alHacerScroll() {
+    var el = document.scrollingElement || document.documentElement;
+    var total = el.scrollHeight - el.clientHeight;
+    var p = 0;
+    if (total > 0) {
+      p = el.scrollTop / total;
+    }
+    for (var j = 0; j < barras.length; j++) {
+      var f = j / barras.length;
+      var color = '#2A2A2E';
+      if (f < p) {
+        if (f > 0.66) {
+          color = B;
+        } else {
+          color = A;
+        }
+      }
+      barras[j].style.background = color;
+    }
+    barra.setAttribute('aria-valuenow', String(Math.round(p * 100)));
+  }
+  window.addEventListener('scroll', alHacerScroll, { passive: true });
+  alHacerScroll();
+
+  // Mezclador: crossfader y vúmetros
+  var fader = document.getElementById('crossfader');
+  var segmentos = document.querySelectorAll('[data-canal]');
+  var pctCodigo = document.getElementById('pct-codigo');
+  var pctMusica = document.getElementById('pct-musica');
+  var modo = document.getElementById('modo-mezcla');
+  function pintarMezcla() {
+    var mix = Number(fader.value);
+    var nivelA = Math.round((100 - mix) / 10);
+    var nivelB = Math.round(mix / 10);
+    for (var i = 0; i < segmentos.length; i++) {
+      var seg = Number(segmentos[i].getAttribute('data-seg'));
+      var color = '#232327';
+      if (segmentos[i].getAttribute('data-canal') === 'a') {
+        if (seg < nivelA) {
+          color = A;
+        }
+      } else {
+        if (seg < nivelB) {
+          color = B;
+        }
+      }
+      segmentos[i].style.background = color;
+    }
+    pctCodigo.textContent = String(100 - mix);
+    pctMusica.textContent = String(mix);
+    if (mix < 35) {
+      modo.textContent = 'Modo ingeniero: editor abierto, café y despliegue a Vercel.';
+    } else if (mix > 65) {
+      modo.textContent = 'Modo cabina: auriculares puestos y el set preparado en rekordbox.';
+    } else {
+      modo.textContent = 'En equilibrio: construyo de día y pincho de noche.';
+    }
+  }
+  fader.addEventListener('input', pintarMezcla);
+  pintarMezcla();
+})();
+</script>
+</body>
+</html>
